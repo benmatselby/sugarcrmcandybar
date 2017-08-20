@@ -2,7 +2,7 @@
 
 Search your SugarCRM application from your Mac menu bar
 
-## Features
+## Features
 
 * Ability to set your credentials to authenticate onto your SugarCRM application
 * Ability to search your SugarCRM application from your Mac menu bar and go to that record
@@ -10,7 +10,7 @@ Search your SugarCRM application from your Mac menu bar
 * Ability to go straight to your SugarCRM instance
 * Two different UI styles, Dark and Light
 
-## Requirements
+## Requirements
 
 **SugarCRM**
 
