@@ -25,6 +25,8 @@
 		B5031DBE1DCBD94800F18D78 /* RecordMapperTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5031DB81DCBD94800F18D78 /* RecordMapperTest.swift */; };
 		B5031DBF1DCBD94800F18D78 /* RecordPersonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5031DB91DCBD94800F18D78 /* RecordPersonTest.swift */; };
 		B5031DC11DCBD9C200F18D78 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5031DC01DCBD9C200F18D78 /* StatusMenuController.swift */; };
+		B508AA041F49E5C700F1A297 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = B508AA031F49E5C700F1A297 /* Makefile */; };
+		B508AA061F49E5D200F1A297 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B508AA051F49E5D200F1A297 /* README.md */; };
 		B5169B2A1DDF77BF0086BD34 /* RecordViewAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5169B291DDF77BF0086BD34 /* RecordViewAll.swift */; };
 		B5169B2C1DDF7F300086BD34 /* RecordViewAllTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5169B2B1DDF7F300086BD34 /* RecordViewAllTest.swift */; };
 		B520D8A91DCBD7D7008465A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B520D8A81DCBD7D7008465A3 /* AppDelegate.swift */; };
@@ -93,6 +95,8 @@
 		B5031DB81DCBD94800F18D78 /* RecordMapperTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordMapperTest.swift; sourceTree = "<group>"; };
 		B5031DB91DCBD94800F18D78 /* RecordPersonTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordPersonTest.swift; sourceTree = "<group>"; };
 		B5031DC01DCBD9C200F18D78 /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		B508AA031F49E5C700F1A297 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		B508AA051F49E5D200F1A297 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B5169B291DDF77BF0086BD34 /* RecordViewAll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewAll.swift; sourceTree = "<group>"; };
 		B5169B2B1DDF7F300086BD34 /* RecordViewAllTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewAllTest.swift; sourceTree = "<group>"; };
 		B520D8A51DCBD7D7008465A3 /* sugarcrmcandybar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sugarcrmcandybar.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -253,6 +257,8 @@
 				B520D8A71DCBD7D7008465A3 /* sugarcrmcandybar */,
 				B520D8B91DCBD7D7008465A3 /* sugarcrmcandybarTests */,
 				B520D8A61DCBD7D7008465A3 /* Products */,
+				B508AA031F49E5C700F1A297 /* Makefile */,
+				B508AA051F49E5D200F1A297 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -457,6 +463,7 @@
 				B520D8A91DCBD7D7008465A3 /* AppDelegate.swift in Sources */,
 				B5031DAE1DCBD91B00F18D78 /* RecordMapper.swift in Sources */,
 				B59A56251DD79CBB008DC34E /* AppPreferences.swift in Sources */,
+				B508AA041F49E5C700F1A297 /* Makefile in Sources */,
 				B59B3DBE1DCF7AEF00143D01 /* ResponseGlobalSearch.swift in Sources */,
 				B5824D661DE1F14100E92562 /* RecordNote.swift in Sources */,
 				B5031DAD1DCBD91B00F18D78 /* RecordLead.swift in Sources */,
@@ -481,6 +488,7 @@
 				B5031DA81DCBD91B00F18D78 /* PreferencesViewController.swift in Sources */,
 				B5824D601DE1F09F00E92562 /* RecordCase.swift in Sources */,
 				B5824D621DE1F0DB00E92562 /* RecordEmail.swift in Sources */,
+				B508AA061F49E5D200F1A297 /* README.md in Sources */,
 				B5031DAC1DCBD91B00F18D78 /* RecordEmployee.swift in Sources */,
 				B5CE74231DCF1E8D0034E966 /* SwiftyJSON.swift in Sources */,
 				B59B3DBA1DCF782E00143D01 /* ResponseGetMe.swift in Sources */,
