@@ -1,6 +1,6 @@
 # SugarCRM Candy Bar
 
-Search your SugarCRM application from your Mac menu bar
+Search your [SugarCRM](https://www.sugarcrm.com) application from your Mac menu bar
 
 ## Features
 
