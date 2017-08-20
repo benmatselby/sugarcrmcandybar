@@ -1,5 +1,7 @@
 # SugarCRM Candy Bar
 
+[![Build Status](https://travis-ci.org/benmatselby/sugarcrmcandybar.svg?branch=master)](https://travis-ci.org/benmatselby/sugarcrmcandybar)
+
 Search your [SugarCRM](https://www.sugarcrm.com) application from your Mac menu bar
 
 ## Features
