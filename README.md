@@ -10,6 +10,12 @@ Search your [SugarCRM](https://www.sugarcrm.com) application from your Mac menu 
 * Ability to go straight to your SugarCRM instance
 * Two different UI styles, Dark and Light
 
+![The Menu Bar](docs/menu-bar.png?raw=true "The Menu Bar")
+
+![Preferences](docs/preferences.png?raw=true "Preferences")
+
+![Search Results](docs/search-results.png?raw=true "Search Results")
+
 ## Requirements
 
 **SugarCRM**
