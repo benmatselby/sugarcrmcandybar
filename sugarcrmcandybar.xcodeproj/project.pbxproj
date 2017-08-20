@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5031D991DCBD90800F18D78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5031D971DCBD90800F18D78 /* Main.storyboard */; };
+		B5031DA81DCBD91B00F18D78 /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5031D9B1DCBD91B00F18D78 /* PreferencesViewController.swift */; };
+		B5031DA91DCBD91B00F18D78 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5031D9D1DCBD91B00F18D78 /* ResultsViewController.swift */; };
+		B5031DAA1DCBD91B00F18D78 /* RecordBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5031DA01DCBD91B00F18D78 /* RecordBase.swift */; };
+		B5031DAB1DCBD91B00F18D78 /* RecordContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5031DA11DCBD91B00F18D78 /* RecordContact.swift */; };
+		B5031DAC1DCBD91B00F18D78 /* RecordEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5031DA21DCBD91B00F18D78 /* RecordEmployee.swift */; };
+		B5031DAD1DCBD91B00F18D78 /* RecordLead.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5031DA31DCBD91B00F18D78 /* RecordLead.swift */; };
+		B5031DAE1DCBD91B00F18D78 /* RecordMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5031DA41DCBD91B00F18D78 /* RecordMapper.swift */; };
+		B5031DAF1DCBD91B00F18D78 /* RecordPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5031DA51DCBD91B00F18D78 /* RecordPerson.swift */; };
+		B5031DB01DCBD91B00F18D78 /* SugarCrmClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5031DA61DCBD91B00F18D78 /* SugarCrmClient.swift */; };
+		B5031DB11DCBD91B00F18D78 /* SugarCrmInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5031DA71DCBD91B00F18D78 /* SugarCrmInstance.swift */; };
+		B5031DBA1DCBD94800F18D78 /* RecordBaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5031DB41DCBD94800F18D78 /* RecordBaseTest.swift */; };
+		B5031DBB1DCBD94800F18D78 /* RecordContactTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5031DB51DCBD94800F18D78 /* RecordContactTest.swift */; };
+		B5031DBC1DCBD94800F18D78 /* RecordEmployeeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5031DB61DCBD94800F18D78 /* RecordEmployeeTest.swift */; };
+		B5031DBD1DCBD94800F18D78 /* RecordLeadTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5031DB71DCBD94800F18D78 /* RecordLeadTest.swift */; };
+		B5031DBE1DCBD94800F18D78 /* RecordMapperTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5031DB81DCBD94800F18D78 /* RecordMapperTest.swift */; };
+		B5031DBF1DCBD94800F18D78 /* RecordPersonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5031DB91DCBD94800F18D78 /* RecordPersonTest.swift */; };
+		B5031DC11DCBD9C200F18D78 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5031DC01DCBD9C200F18D78 /* StatusMenuController.swift */; };
+		B5169B2A1DDF77BF0086BD34 /* RecordViewAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5169B291DDF77BF0086BD34 /* RecordViewAll.swift */; };
+		B5169B2C1DDF7F300086BD34 /* RecordViewAllTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5169B2B1DDF7F300086BD34 /* RecordViewAllTest.swift */; };
+		B520D8A91DCBD7D7008465A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B520D8A81DCBD7D7008465A3 /* AppDelegate.swift */; };
+		B520D8AD1DCBD7D7008465A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B520D8AC1DCBD7D7008465A3 /* Assets.xcassets */; };
+		B54E1A211DCE59AC00AB88E4 /* RequestOAuthToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54E1A201DCE59AC00AB88E4 /* RequestOAuthToken.swift */; };
+		B54E1A231DCE59C700AB88E4 /* RequestGlobalSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54E1A221DCE59C700AB88E4 /* RequestGlobalSearch.swift */; };
+		B54E1A251DCE5A2900AB88E4 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54E1A241DCE5A2900AB88E4 /* Request.swift */; };
+		B5824D5C1DE1E7A400E92562 /* SugarCrmModuleTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5824D5B1DE1E7A400E92562 /* SugarCrmModuleTableCell.swift */; };
+		B5824D5E1DE1F03A00E92562 /* RecordCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5824D5D1DE1F03A00E92562 /* RecordCall.swift */; };
+		B5824D601DE1F09F00E92562 /* RecordCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5824D5F1DE1F09F00E92562 /* RecordCase.swift */; };
+		B5824D621DE1F0DB00E92562 /* RecordEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5824D611DE1F0DB00E92562 /* RecordEmail.swift */; };
+		B5824D661DE1F14100E92562 /* RecordNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5824D651DE1F14100E92562 /* RecordNote.swift */; };
+		B5824D681DE1F18200E92562 /* RecordTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5824D671DE1F18200E92562 /* RecordTask.swift */; };
+		B5824D6A1DE1F1B100E92562 /* RecordRevenueLineItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5824D691DE1F1B100E92562 /* RecordRevenueLineItem.swift */; };
+		B5824D6C1DE1F2D000E92562 /* RecordCallTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5824D6B1DE1F2D000E92562 /* RecordCallTest.swift */; };
+		B5824D6E1DE1F37700E92562 /* RecordCaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5824D6D1DE1F37700E92562 /* RecordCaseTest.swift */; };
+		B5824D701DE1F3AC00E92562 /* RecordEmailTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5824D6F1DE1F3AC00E92562 /* RecordEmailTest.swift */; };
+		B5824D731DE1F3FD00E92562 /* RecordNoteTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5824D721DE1F3FD00E92562 /* RecordNoteTest.swift */; };
+		B5824D751DE1F43F00E92562 /* RecordRevenueLineItemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5824D741DE1F43F00E92562 /* RecordRevenueLineItemTest.swift */; };
+		B5824D771DE1F44900E92562 /* RecordTaskTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5824D761DE1F44900E92562 /* RecordTaskTest.swift */; };
+		B59A56251DD79CBB008DC34E /* AppPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59A56241DD79CBB008DC34E /* AppPreferences.swift */; };
+		B59A56271DD8A7A0008DC34E /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59A56261DD8A7A0008DC34E /* Keychain.swift */; };
+		B59A56291DD8F40E008DC34E /* RecordDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59A56281DD8F40E008DC34E /* RecordDocument.swift */; };
+		B59A562B1DD8F4E5008DC34E /* RecordDocumentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59A562A1DD8F4E5008DC34E /* RecordDocumentTest.swift */; };
+		B59B3DB81DCF76D700143D01 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B3DB71DCF76D700143D01 /* Response.swift */; };
+		B59B3DBA1DCF782E00143D01 /* ResponseGetMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B3DB91DCF782E00143D01 /* ResponseGetMe.swift */; };
+		B59B3DBC1DCF7AE000143D01 /* ResponseOAuthToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B3DBB1DCF7AE000143D01 /* ResponseOAuthToken.swift */; };
+		B59B3DBE1DCF7AEF00143D01 /* ResponseGlobalSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B3DBD1DCF7AEF00143D01 /* ResponseGlobalSearch.swift */; };
+		B59B3DC11DCF835200143D01 /* RequestGetMeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B3DC01DCF835200143D01 /* RequestGetMeTest.swift */; };
+		B59B3DC71DCF898800143D01 /* ResponseGetMeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B3DC61DCF898800143D01 /* ResponseGetMeTest.swift */; };
+		B59B3DC91DCFD9F600143D01 /* ResponseOAuthTokenTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B3DC81DCFD9F600143D01 /* ResponseOAuthTokenTest.swift */; };
+		B59B3DCB1DCFDA7900143D01 /* GetMe.json in Resources */ = {isa = PBXBuildFile; fileRef = B59B3DCA1DCFDA7900143D01 /* GetMe.json */; };
+		B59B3DCE1DCFDB0D00143D01 /* OAuthToken.json in Resources */ = {isa = PBXBuildFile; fileRef = B59B3DCD1DCFDB0D00143D01 /* OAuthToken.json */; };
+		B59B3DD01DCFDFFC00143D01 /* GlobalSearch.json in Resources */ = {isa = PBXBuildFile; fileRef = B59B3DCF1DCFDFFC00143D01 /* GlobalSearch.json */; };
+		B59B3DD21DCFE0E900143D01 /* ResponseGlobalSearchTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B3DD11DCFE0E900143D01 /* ResponseGlobalSearchTest.swift */; };
+		B5CE74201DCE8E370034E966 /* RequestGetMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CE741F1DCE8E370034E966 /* RequestGetMe.swift */; };
+		B5CE74231DCF1E8D0034E966 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CE74221DCF1E8D0034E966 /* SwiftyJSON.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B520D8B71DCBD7D7008465A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B520D89D1DCBD7D7008465A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B520D8A41DCBD7D7008465A3;
+			remoteInfo = sugarcrmcandybar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5031D981DCBD90800F18D78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		B5031D9B1DCBD91B00F18D78 /* PreferencesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
+		B5031D9D1DCBD91B00F18D78 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		B5031DA01DCBD91B00F18D78 /* RecordBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordBase.swift; sourceTree = "<group>"; };
+		B5031DA11DCBD91B00F18D78 /* RecordContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordContact.swift; sourceTree = "<group>"; };
+		B5031DA21DCBD91B00F18D78 /* RecordEmployee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordEmployee.swift; sourceTree = "<group>"; };
+		B5031DA31DCBD91B00F18D78 /* RecordLead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordLead.swift; sourceTree = "<group>"; };
+		B5031DA41DCBD91B00F18D78 /* RecordMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordMapper.swift; sourceTree = "<group>"; };
+		B5031DA51DCBD91B00F18D78 /* RecordPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordPerson.swift; sourceTree = "<group>"; };
+		B5031DA61DCBD91B00F18D78 /* SugarCrmClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SugarCrmClient.swift; sourceTree = "<group>"; };
+		B5031DA71DCBD91B00F18D78 /* SugarCrmInstance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SugarCrmInstance.swift; sourceTree = "<group>"; };
+		B5031DB41DCBD94800F18D78 /* RecordBaseTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordBaseTest.swift; sourceTree = "<group>"; };
+		B5031DB51DCBD94800F18D78 /* RecordContactTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordContactTest.swift; sourceTree = "<group>"; };
+		B5031DB61DCBD94800F18D78 /* RecordEmployeeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordEmployeeTest.swift; sourceTree = "<group>"; };
+		B5031DB71DCBD94800F18D78 /* RecordLeadTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordLeadTest.swift; sourceTree = "<group>"; };
+		B5031DB81DCBD94800F18D78 /* RecordMapperTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordMapperTest.swift; sourceTree = "<group>"; };
+		B5031DB91DCBD94800F18D78 /* RecordPersonTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordPersonTest.swift; sourceTree = "<group>"; };
+		B5031DC01DCBD9C200F18D78 /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		B5169B291DDF77BF0086BD34 /* RecordViewAll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewAll.swift; sourceTree = "<group>"; };
+		B5169B2B1DDF7F300086BD34 /* RecordViewAllTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewAllTest.swift; sourceTree = "<group>"; };
+		B520D8A51DCBD7D7008465A3 /* sugarcrmcandybar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sugarcrmcandybar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B520D8A81DCBD7D7008465A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B520D8AC1DCBD7D7008465A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		B520D8B11DCBD7D7008465A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B520D8B61DCBD7D7008465A3 /* sugarcrmcandybarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sugarcrmcandybarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B520D8BC1DCBD7D7008465A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B54E1A201DCE59AC00AB88E4 /* RequestOAuthToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestOAuthToken.swift; path = Requests/RequestOAuthToken.swift; sourceTree = "<group>"; };
+		B54E1A221DCE59C700AB88E4 /* RequestGlobalSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestGlobalSearch.swift; path = Requests/RequestGlobalSearch.swift; sourceTree = "<group>"; };
+		B54E1A241DCE5A2900AB88E4 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Requests/Request.swift; sourceTree = "<group>"; };
+		B5824D5B1DE1E7A400E92562 /* SugarCrmModuleTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SugarCrmModuleTableCell.swift; path = sugarcrmcandybar/UI/SugarCrmModuleTableCell.swift; sourceTree = SOURCE_ROOT; };
+		B5824D5D1DE1F03A00E92562 /* RecordCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordCall.swift; sourceTree = "<group>"; };
+		B5824D5F1DE1F09F00E92562 /* RecordCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordCase.swift; sourceTree = "<group>"; };
+		B5824D611DE1F0DB00E92562 /* RecordEmail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordEmail.swift; sourceTree = "<group>"; };
+		B5824D651DE1F14100E92562 /* RecordNote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordNote.swift; sourceTree = "<group>"; };
+		B5824D671DE1F18200E92562 /* RecordTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordTask.swift; sourceTree = "<group>"; };
+		B5824D691DE1F1B100E92562 /* RecordRevenueLineItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordRevenueLineItem.swift; sourceTree = "<group>"; };
+		B5824D6B1DE1F2D000E92562 /* RecordCallTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordCallTest.swift; sourceTree = "<group>"; };
+		B5824D6D1DE1F37700E92562 /* RecordCaseTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordCaseTest.swift; sourceTree = "<group>"; };
+		B5824D6F1DE1F3AC00E92562 /* RecordEmailTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordEmailTest.swift; sourceTree = "<group>"; };
+		B5824D721DE1F3FD00E92562 /* RecordNoteTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordNoteTest.swift; sourceTree = "<group>"; };
+		B5824D741DE1F43F00E92562 /* RecordRevenueLineItemTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordRevenueLineItemTest.swift; sourceTree = "<group>"; };
+		B5824D761DE1F44900E92562 /* RecordTaskTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordTaskTest.swift; sourceTree = "<group>"; };
+		B59A56241DD79CBB008DC34E /* AppPreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppPreferences.swift; sourceTree = "<group>"; };
+		B59A56261DD8A7A0008DC34E /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Utils/Keychain.swift; sourceTree = "<group>"; };
+		B59A56281DD8F40E008DC34E /* RecordDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordDocument.swift; sourceTree = "<group>"; };
+		B59A562A1DD8F4E5008DC34E /* RecordDocumentTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordDocumentTest.swift; sourceTree = "<group>"; };
+		B59B3DB71DCF76D700143D01 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Responses/Response.swift; sourceTree = "<group>"; };
+		B59B3DB91DCF782E00143D01 /* ResponseGetMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseGetMe.swift; path = Responses/ResponseGetMe.swift; sourceTree = "<group>"; };
+		B59B3DBB1DCF7AE000143D01 /* ResponseOAuthToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseOAuthToken.swift; path = Responses/ResponseOAuthToken.swift; sourceTree = "<group>"; };
+		B59B3DBD1DCF7AEF00143D01 /* ResponseGlobalSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseGlobalSearch.swift; path = Responses/ResponseGlobalSearch.swift; sourceTree = "<group>"; };
+		B59B3DC01DCF835200143D01 /* RequestGetMeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestGetMeTest.swift; path = Requests/RequestGetMeTest.swift; sourceTree = "<group>"; };
+		B59B3DC61DCF898800143D01 /* ResponseGetMeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseGetMeTest.swift; path = Responses/ResponseGetMeTest.swift; sourceTree = "<group>"; };
+		B59B3DC81DCFD9F600143D01 /* ResponseOAuthTokenTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseOAuthTokenTest.swift; path = Responses/ResponseOAuthTokenTest.swift; sourceTree = "<group>"; };
+		B59B3DCA1DCFDA7900143D01 /* GetMe.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = GetMe.json; path = Json/GetMe.json; sourceTree = "<group>"; };
+		B59B3DCD1DCFDB0D00143D01 /* OAuthToken.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = OAuthToken.json; path = Json/OAuthToken.json; sourceTree = "<group>"; };
+		B59B3DCF1DCFDFFC00143D01 /* GlobalSearch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = GlobalSearch.json; path = Json/GlobalSearch.json; sourceTree = "<group>"; };
+		B59B3DD11DCFE0E900143D01 /* ResponseGlobalSearchTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseGlobalSearchTest.swift; path = Responses/ResponseGlobalSearchTest.swift; sourceTree = "<group>"; };
+		B5CE741F1DCE8E370034E966 /* RequestGetMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestGetMe.swift; path = Requests/RequestGetMe.swift; sourceTree = "<group>"; };
+		B5CE74221DCF1E8D0034E966 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Utils/SwiftyJSON.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B520D8A21DCBD7D7008465A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B520D8B31DCBD7D7008465A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5031D961DCBD90800F18D78 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B520D8AC1DCBD7D7008465A3 /* Assets.xcassets */,
+				B5031D971DCBD90800F18D78 /* Main.storyboard */,
+				B5824D5B1DE1E7A400E92562 /* SugarCrmModuleTableCell.swift */,
+			);
+			name = UI;
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		B5031D9A1DCBD91B00F18D78 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				B5031D9B1DCBD91B00F18D78 /* PreferencesViewController.swift */,
+				B59A56241DD79CBB008DC34E /* AppPreferences.swift */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		B5031D9C1DCBD91B00F18D78 /* Results */ = {
+			isa = PBXGroup;
+			children = (
+				B5031D9D1DCBD91B00F18D78 /* ResultsViewController.swift */,
+			);
+			path = Results;
+			sourceTree = "<group>";
+		};
+		B5031D9E1DCBD91B00F18D78 /* SugarCRM */ = {
+			isa = PBXGroup;
+			children = (
+				B5031D9F1DCBD91B00F18D78 /* Record */,
+				B54E1A1F1DCE597200AB88E4 /* Requests */,
+				B5CE74241DCF2D3F0034E966 /* Responses */,
+				B5031DA61DCBD91B00F18D78 /* SugarCrmClient.swift */,
+				B5031DA71DCBD91B00F18D78 /* SugarCrmInstance.swift */,
+			);
+			path = SugarCRM;
+			sourceTree = "<group>";
+		};
+		B5031D9F1DCBD91B00F18D78 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				B5031DA01DCBD91B00F18D78 /* RecordBase.swift */,
+				B5824D5D1DE1F03A00E92562 /* RecordCall.swift */,
+				B5824D5F1DE1F09F00E92562 /* RecordCase.swift */,
+				B5031DA11DCBD91B00F18D78 /* RecordContact.swift */,
+				B59A56281DD8F40E008DC34E /* RecordDocument.swift */,
+				B5824D611DE1F0DB00E92562 /* RecordEmail.swift */,
+				B5031DA21DCBD91B00F18D78 /* RecordEmployee.swift */,
+				B5031DA31DCBD91B00F18D78 /* RecordLead.swift */,
+				B5031DA41DCBD91B00F18D78 /* RecordMapper.swift */,
+				B5824D651DE1F14100E92562 /* RecordNote.swift */,
+				B5031DA51DCBD91B00F18D78 /* RecordPerson.swift */,
+				B5824D691DE1F1B100E92562 /* RecordRevenueLineItem.swift */,
+				B5824D671DE1F18200E92562 /* RecordTask.swift */,
+				B5169B291DDF77BF0086BD34 /* RecordViewAll.swift */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		B5031DB21DCBD94800F18D78 /* SugarCRM */ = {
+			isa = PBXGroup;
+			children = (
+				B59B3DC41DCF894F00143D01 /* Json */,
+				B5031DB31DCBD94800F18D78 /* Record */,
+				B59B3DBF1DCF833500143D01 /* Requests */,
+				B59B3DC51DCF896700143D01 /* Responses */,
+			);
+			path = SugarCRM;
+			sourceTree = "<group>";
+		};
+		B5031DB31DCBD94800F18D78 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				B5031DB41DCBD94800F18D78 /* RecordBaseTest.swift */,
+				B5824D6B1DE1F2D000E92562 /* RecordCallTest.swift */,
+				B5824D6D1DE1F37700E92562 /* RecordCaseTest.swift */,
+				B5031DB51DCBD94800F18D78 /* RecordContactTest.swift */,
+				B59A562A1DD8F4E5008DC34E /* RecordDocumentTest.swift */,
+				B5824D6F1DE1F3AC00E92562 /* RecordEmailTest.swift */,
+				B5031DB61DCBD94800F18D78 /* RecordEmployeeTest.swift */,
+				B5031DB71DCBD94800F18D78 /* RecordLeadTest.swift */,
+				B5031DB81DCBD94800F18D78 /* RecordMapperTest.swift */,
+				B5824D721DE1F3FD00E92562 /* RecordNoteTest.swift */,
+				B5031DB91DCBD94800F18D78 /* RecordPersonTest.swift */,
+				B5169B2B1DDF7F300086BD34 /* RecordViewAllTest.swift */,
+				B5824D741DE1F43F00E92562 /* RecordRevenueLineItemTest.swift */,
+				B5824D761DE1F44900E92562 /* RecordTaskTest.swift */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		B520D89C1DCBD7D7008465A3 = {
+			isa = PBXGroup;
+			children = (
+				B520D8A71DCBD7D7008465A3 /* sugarcrmcandybar */,
+				B520D8B91DCBD7D7008465A3 /* sugarcrmcandybarTests */,
+				B520D8A61DCBD7D7008465A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B520D8A61DCBD7D7008465A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B520D8A51DCBD7D7008465A3 /* sugarcrmcandybar.app */,
+				B520D8B61DCBD7D7008465A3 /* sugarcrmcandybarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B520D8A71DCBD7D7008465A3 /* sugarcrmcandybar */ = {
+			isa = PBXGroup;
+			children = (
+				B5031D9A1DCBD91B00F18D78 /* Preferences */,
+				B5031D9C1DCBD91B00F18D78 /* Results */,
+				B5031D9E1DCBD91B00F18D78 /* SugarCRM */,
+				B5031D961DCBD90800F18D78 /* UI */,
+				B5CE74211DCF1E780034E966 /* Utils */,
+				B520D8A81DCBD7D7008465A3 /* AppDelegate.swift */,
+				B5031DC01DCBD9C200F18D78 /* StatusMenuController.swift */,
+				B520D8B11DCBD7D7008465A3 /* Info.plist */,
+			);
+			path = sugarcrmcandybar;
+			sourceTree = "<group>";
+		};
+		B520D8B91DCBD7D7008465A3 /* sugarcrmcandybarTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5031DB21DCBD94800F18D78 /* SugarCRM */,
+				B520D8BC1DCBD7D7008465A3 /* Info.plist */,
+			);
+			path = sugarcrmcandybarTests;
+			sourceTree = "<group>";
+		};
+		B54E1A1F1DCE597200AB88E4 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				B5CE741F1DCE8E370034E966 /* RequestGetMe.swift */,
+				B54E1A201DCE59AC00AB88E4 /* RequestOAuthToken.swift */,
+				B54E1A221DCE59C700AB88E4 /* RequestGlobalSearch.swift */,
+				B54E1A241DCE5A2900AB88E4 /* Request.swift */,
+			);
+			name = Requests;
+			sourceTree = "<group>";
+		};
+		B59B3DBF1DCF833500143D01 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				B59B3DC01DCF835200143D01 /* RequestGetMeTest.swift */,
+			);
+			name = Requests;
+			sourceTree = "<group>";
+		};
+		B59B3DC41DCF894F00143D01 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				B59B3DCA1DCFDA7900143D01 /* GetMe.json */,
+				B59B3DCD1DCFDB0D00143D01 /* OAuthToken.json */,
+				B59B3DCF1DCFDFFC00143D01 /* GlobalSearch.json */,
+			);
+			name = Json;
+			sourceTree = "<group>";
+		};
+		B59B3DC51DCF896700143D01 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				B59B3DC61DCF898800143D01 /* ResponseGetMeTest.swift */,
+				B59B3DC81DCFD9F600143D01 /* ResponseOAuthTokenTest.swift */,
+				B59B3DD11DCFE0E900143D01 /* ResponseGlobalSearchTest.swift */,
+			);
+			name = Responses;
+			sourceTree = "<group>";
+		};
+		B5CE74211DCF1E780034E966 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B5CE74221DCF1E8D0034E966 /* SwiftyJSON.swift */,
+				B59A56261DD8A7A0008DC34E /* Keychain.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		B5CE74241DCF2D3F0034E966 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				B59B3DB71DCF76D700143D01 /* Response.swift */,
+				B59B3DB91DCF782E00143D01 /* ResponseGetMe.swift */,
+				B59B3DBB1DCF7AE000143D01 /* ResponseOAuthToken.swift */,
+				B59B3DBD1DCF7AEF00143D01 /* ResponseGlobalSearch.swift */,
+			);
+			name = Responses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B520D8A41DCBD7D7008465A3 /* sugarcrmcandybar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B520D8BF1DCBD7D7008465A3 /* Build configuration list for PBXNativeTarget "sugarcrmcandybar" */;
+			buildPhases = (
+				B520D8A11DCBD7D7008465A3 /* Sources */,
+				B520D8A21DCBD7D7008465A3 /* Frameworks */,
+				B520D8A31DCBD7D7008465A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sugarcrmcandybar;
+			productName = sugarcrmcandybar;
+			productReference = B520D8A51DCBD7D7008465A3 /* sugarcrmcandybar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B520D8B51DCBD7D7008465A3 /* sugarcrmcandybarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B520D8C21DCBD7D7008465A3 /* Build configuration list for PBXNativeTarget "sugarcrmcandybarTests" */;
+			buildPhases = (
+				B520D8B21DCBD7D7008465A3 /* Sources */,
+				B520D8B31DCBD7D7008465A3 /* Frameworks */,
+				B520D8B41DCBD7D7008465A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B520D8B81DCBD7D7008465A3 /* PBXTargetDependency */,
+			);
+			name = sugarcrmcandybarTests;
+			productName = sugarcrmcandybarTests;
+			productReference = B520D8B61DCBD7D7008465A3 /* sugarcrmcandybarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B520D89D1DCBD7D7008465A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ben Selby";
+				TargetAttributes = {
+					B520D8A41DCBD7D7008465A3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 38J7HFHL7P;
+						ProvisioningStyle = Automatic;
+					};
+					B520D8B51DCBD7D7008465A3 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B520D8A41DCBD7D7008465A3;
+					};
+				};
+			};
+			buildConfigurationList = B520D8A01DCBD7D7008465A3 /* Build configuration list for PBXProject "sugarcrmcandybar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B520D89C1DCBD7D7008465A3;
+			productRefGroup = B520D8A61DCBD7D7008465A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B520D8A41DCBD7D7008465A3 /* sugarcrmcandybar */,
+				B520D8B51DCBD7D7008465A3 /* sugarcrmcandybarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B520D8A31DCBD7D7008465A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B520D8AD1DCBD7D7008465A3 /* Assets.xcassets in Resources */,
+				B5031D991DCBD90800F18D78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B520D8B41DCBD7D7008465A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59B3DD01DCFDFFC00143D01 /* GlobalSearch.json in Resources */,
+				B59B3DCB1DCFDA7900143D01 /* GetMe.json in Resources */,
+				B59B3DCE1DCFDB0D00143D01 /* OAuthToken.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B520D8A11DCBD7D7008465A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B520D8A91DCBD7D7008465A3 /* AppDelegate.swift in Sources */,
+				B5031DAE1DCBD91B00F18D78 /* RecordMapper.swift in Sources */,
+				B59A56251DD79CBB008DC34E /* AppPreferences.swift in Sources */,
+				B59B3DBE1DCF7AEF00143D01 /* ResponseGlobalSearch.swift in Sources */,
+				B5824D661DE1F14100E92562 /* RecordNote.swift in Sources */,
+				B5031DAD1DCBD91B00F18D78 /* RecordLead.swift in Sources */,
+				B5824D6A1DE1F1B100E92562 /* RecordRevenueLineItem.swift in Sources */,
+				B54E1A211DCE59AC00AB88E4 /* RequestOAuthToken.swift in Sources */,
+				B59B3DBC1DCF7AE000143D01 /* ResponseOAuthToken.swift in Sources */,
+				B59B3DB81DCF76D700143D01 /* Response.swift in Sources */,
+				B5824D5C1DE1E7A400E92562 /* SugarCrmModuleTableCell.swift in Sources */,
+				B5824D681DE1F18200E92562 /* RecordTask.swift in Sources */,
+				B54E1A231DCE59C700AB88E4 /* RequestGlobalSearch.swift in Sources */,
+				B5031DAF1DCBD91B00F18D78 /* RecordPerson.swift in Sources */,
+				B5031DAB1DCBD91B00F18D78 /* RecordContact.swift in Sources */,
+				B59A56271DD8A7A0008DC34E /* Keychain.swift in Sources */,
+				B54E1A251DCE5A2900AB88E4 /* Request.swift in Sources */,
+				B59A56291DD8F40E008DC34E /* RecordDocument.swift in Sources */,
+				B5CE74201DCE8E370034E966 /* RequestGetMe.swift in Sources */,
+				B5031DAA1DCBD91B00F18D78 /* RecordBase.swift in Sources */,
+				B5031DC11DCBD9C200F18D78 /* StatusMenuController.swift in Sources */,
+				B5824D5E1DE1F03A00E92562 /* RecordCall.swift in Sources */,
+				B5169B2A1DDF77BF0086BD34 /* RecordViewAll.swift in Sources */,
+				B5031DB11DCBD91B00F18D78 /* SugarCrmInstance.swift in Sources */,
+				B5031DA81DCBD91B00F18D78 /* PreferencesViewController.swift in Sources */,
+				B5824D601DE1F09F00E92562 /* RecordCase.swift in Sources */,
+				B5824D621DE1F0DB00E92562 /* RecordEmail.swift in Sources */,
+				B5031DAC1DCBD91B00F18D78 /* RecordEmployee.swift in Sources */,
+				B5CE74231DCF1E8D0034E966 /* SwiftyJSON.swift in Sources */,
+				B59B3DBA1DCF782E00143D01 /* ResponseGetMe.swift in Sources */,
+				B5031DB01DCBD91B00F18D78 /* SugarCrmClient.swift in Sources */,
+				B5031DA91DCBD91B00F18D78 /* ResultsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B520D8B21DCBD7D7008465A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59B3DC91DCFD9F600143D01 /* ResponseOAuthTokenTest.swift in Sources */,
+				B5824D771DE1F44900E92562 /* RecordTaskTest.swift in Sources */,
+				B5824D751DE1F43F00E92562 /* RecordRevenueLineItemTest.swift in Sources */,
+				B5824D6C1DE1F2D000E92562 /* RecordCallTest.swift in Sources */,
+				B59B3DC11DCF835200143D01 /* RequestGetMeTest.swift in Sources */,
+				B59A562B1DD8F4E5008DC34E /* RecordDocumentTest.swift in Sources */,
+				B5824D731DE1F3FD00E92562 /* RecordNoteTest.swift in Sources */,
+				B5824D701DE1F3AC00E92562 /* RecordEmailTest.swift in Sources */,
+				B5824D6E1DE1F37700E92562 /* RecordCaseTest.swift in Sources */,
+				B5031DBF1DCBD94800F18D78 /* RecordPersonTest.swift in Sources */,
+				B5031DBA1DCBD94800F18D78 /* RecordBaseTest.swift in Sources */,
+				B5169B2C1DDF7F300086BD34 /* RecordViewAllTest.swift in Sources */,
+				B5031DBC1DCBD94800F18D78 /* RecordEmployeeTest.swift in Sources */,
+				B59B3DD21DCFE0E900143D01 /* ResponseGlobalSearchTest.swift in Sources */,
+				B5031DBD1DCBD94800F18D78 /* RecordLeadTest.swift in Sources */,
+				B5031DBB1DCBD94800F18D78 /* RecordContactTest.swift in Sources */,
+				B5031DBE1DCBD94800F18D78 /* RecordMapperTest.swift in Sources */,
+				B59B3DC71DCF898800143D01 /* ResponseGetMeTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B520D8B81DCBD7D7008465A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B520D8A41DCBD7D7008465A3 /* sugarcrmcandybar */;
+			targetProxy = B520D8B71DCBD7D7008465A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5031D971DCBD90800F18D78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5031D981DCBD90800F18D78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B520D8BD1DCBD7D7008465A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B520D8BE1DCBD7D7008465A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		B520D8C01DCBD7D7008465A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 38J7HFHL7P;
+				INFOPLIST_FILE = sugarcrmcandybar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = benmatselby.sugarcrmcandybar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B520D8C11DCBD7D7008465A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 38J7HFHL7P;
+				INFOPLIST_FILE = sugarcrmcandybar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = benmatselby.sugarcrmcandybar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B520D8C31DCBD7D7008465A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = sugarcrmcandybarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = benmatselby.sugarcrmcandybarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sugarcrmcandybar.app/Contents/MacOS/sugarcrmcandybar";
+			};
+			name = Debug;
+		};
+		B520D8C41DCBD7D7008465A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = sugarcrmcandybarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = benmatselby.sugarcrmcandybarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sugarcrmcandybar.app/Contents/MacOS/sugarcrmcandybar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B520D8A01DCBD7D7008465A3 /* Build configuration list for PBXProject "sugarcrmcandybar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B520D8BD1DCBD7D7008465A3 /* Debug */,
+				B520D8BE1DCBD7D7008465A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B520D8BF1DCBD7D7008465A3 /* Build configuration list for PBXNativeTarget "sugarcrmcandybar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B520D8C01DCBD7D7008465A3 /* Debug */,
+				B520D8C11DCBD7D7008465A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B520D8C21DCBD7D7008465A3 /* Build configuration list for PBXNativeTarget "sugarcrmcandybarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B520D8C31DCBD7D7008465A3 /* Debug */,
+				B520D8C41DCBD7D7008465A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B520D89D1DCBD7D7008465A3 /* Project object */;
+}

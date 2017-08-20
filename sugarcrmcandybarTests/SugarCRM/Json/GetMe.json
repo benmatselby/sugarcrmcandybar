@@ -1,0 +1,25 @@
+{
+    "current_user": {
+        "preferences": {
+            "timezone": "Europe/London",
+        },
+        "module_list": [],
+        "type": "user",
+        "show_wizard": false,
+        "id": "123-41-12-31",
+        "full_name": "Ben Selby",
+        "user_name": "Ben Selby",
+        "roles": [],
+        "is_manager": true,
+        "is_top_level_manager": false,
+        "reports_to_id": "123-41-12-45",
+        "reports_to_name": "The Boss",
+        "address_street": "Street",
+        "address_city": "Sheffield",
+        "address_state": "South Yorkshire",
+        "address_country": "United Kingdom",
+        "address_postalcode": "S1 11A",
+        "my_teams": [],
+        "_hash": "123123123123213"
+    }
+}
