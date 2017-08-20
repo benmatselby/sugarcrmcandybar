@@ -9,4 +9,4 @@ explain:
 	# -> $$ make test
 
 test:
-	xcodebuild -workspace sugarcrmcandybar.xcodeproj/project.xcworkspace/ -scheme "$(SCHEME)" test
+	xcodebuild test -project sugarcrmcandybar.xcodeproj -scheme "$(SCHEME)"

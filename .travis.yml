@@ -1,4 +1,3 @@
 language: swift
 osx_image: xcode8.3
-xcode_project: sugarcrmcandybar.xcodeproj
-xcode_scheme: sugarcrmcandybarTests
+script: make test
