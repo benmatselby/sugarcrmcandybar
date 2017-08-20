@@ -9,4 +9,4 @@ explain:
 	# -> $$ make test
 
 test:
-	xcodebuild test -project sugarcrmcandybar.xcodeproj -scheme "$(SCHEME)"
+	xcodebuild test -project sugarcrmcandybar.xcodeproj -scheme "$(SCHEME)" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
