@@ -33,6 +33,10 @@ class RequestGetMeTest: XCTestCase {
             override func getRestUrl() -> String {
                 return "http://crm.example.com"
             }
+
+            override func getPassword() -> String {
+                return "secret"
+            }
         }
         let crmInstance: SugarCrmInstance = MockSugarCrmInstance()
         let request = RequestGetMe(crmInstance: crmInstance)
