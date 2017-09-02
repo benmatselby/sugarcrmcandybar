@@ -138,7 +138,7 @@ extension ResultsViewController : NSTableViewDataSource {
     }
 }
 
-// MARK: - Table View Delete
+// MARK: - Table View Delegate
 extension ResultsViewController : NSTableViewDelegate {
     func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
 
