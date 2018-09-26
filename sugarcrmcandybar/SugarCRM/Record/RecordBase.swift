@@ -72,7 +72,7 @@ class RecordBase {
         if (module == "") {
             return module
         }
-        return module.substring(to: module.index(module.startIndex, offsetBy: 2))
+        return String(module.prefix(2))
     }
 
     /**

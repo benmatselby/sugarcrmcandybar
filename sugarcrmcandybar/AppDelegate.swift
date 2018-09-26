@@ -27,19 +27,24 @@ class AppDelegate: NSObject, NSApplicationDelegate {
      Load the preferences window into the foreground
      */
     func showPreferencesWindow() {
-        NSApplication.shared().activate(ignoringOtherApps: true)
+        NSApplication.shared.activate(ignoringOtherApps: true)
         self.preferencesWindowController.showWindow(nil)
     }
 
     func showResultsWindow() {
         let preferences = AppPreferences()
         self.resultsWindowController = NSStoryboard(name: "Main", bundle: nil).instantiateController(withIdentifier: "results window") as? NSWindowController
-        NSApplication.shared().activate(ignoringOtherApps: true)
+        NSApplication.shared.activate(ignoringOtherApps: true)
         self.resultsWindowController.showWindow(nil)
         self.resultsWindowController.window?.titleVisibility = .hidden
         self.resultsWindowController.window?.titlebarAppearsTransparent = true
-        self.resultsWindowController.window?.appearance = NSAppearance(named: preferences.getNsAppearanceName())
+        self.resultsWindowController.window?.appearance = NSAppearance(named: convertToNSAppearanceName(preferences.getNsAppearanceName()))
         self.resultsWindowController.window?.isMovableByWindowBackground = true
     }
 }
 
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertToNSAppearanceName(_ input: String) -> NSAppearance.Name {
+	return NSAppearance.Name(rawValue: input)
+}

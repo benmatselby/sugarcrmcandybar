@@ -23,7 +23,7 @@ class ResultsViewController: NSViewController {
     // MARK: - View
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.tableView.appearance = NSAppearance(named: NSAppearanceNameAqua)
+        self.tableView.appearance = NSAppearance(named: NSAppearance.Name.aqua)
         self.tableView.isHidden = true
     }
 
@@ -101,17 +101,17 @@ class ResultsViewController: NSViewController {
         let items = self.searchField.searchMenuTemplate?.items
         for item in items! {
             if (item.title == module) {
-                if (item.state == 0) {
-                    item.state = NSOnState
-                    sender.state = NSOnState
+                if (item.state.rawValue == 0) {
+                    item.state = NSControl.StateValue.on
+                    sender.state = NSControl.StateValue.on
                     self.moduleSelected = module
                 } else {
-                    item.state = NSOffState
-                    sender.state = NSOffState
+                    item.state = NSControl.StateValue.off
+                    sender.state = NSControl.StateValue.off
                     self.moduleSelected = ""
                 }
             } else {
-                item.state = NSOffState
+                item.state = NSControl.StateValue.off
             }
         }
     }
@@ -126,7 +126,7 @@ class ResultsViewController: NSViewController {
         let record = crmRecords[self.tableView.selectedRow]
         let segment = record.getUrl()
         let sugarInstance: SugarCrmInstance = SugarCrmInstance()
-        NSWorkspace.shared().open(URL(string: sugarInstance.getUrl()+segment)!)
+        NSWorkspace.shared.open(URL(string: sugarInstance.getUrl()+segment)!)
         self.view.window?.orderOut(self)
     }
 }
@@ -144,13 +144,18 @@ extension ResultsViewController : NSTableViewDelegate {
 
         let record = self.crmRecords[row]
         if tableColumn == tableView.tableColumns[0] {
-            let cell = tableView.make(withIdentifier: "moduleCellID", owner: nil) as? SugarCrmModuleTableCell
+            let cell = tableView.makeView(withIdentifier: convertToNSUserInterfaceItemIdentifier("moduleCellID"), owner: nil) as? SugarCrmModuleTableCell
             cell?.setModule(module: record.getModuleIconText())
             return cell
         } else {
-            let cell = tableView.make(withIdentifier: "nameCellID", owner: nil) as? NSTableCellView
+            let cell = tableView.makeView(withIdentifier: convertToNSUserInterfaceItemIdentifier("nameCellID"), owner: nil) as? NSTableCellView
             cell?.textField?.stringValue = record.getName()
             return cell
         }
     }
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertToNSUserInterfaceItemIdentifier(_ input: String) -> NSUserInterfaceItemIdentifier {
+	return NSUserInterfaceItemIdentifier(rawValue: input)
 }

@@ -28,8 +28,6 @@ class SugarCrmModuleTableCell: NSTableCellView
         switch module {
         case "Ac": // Accounts
             bgColour = NSColor(srgbRed: 0.2, green: 0.5, blue: 0.05, alpha: 1)
-        case "Ca": // Calendar
-            bgColour = NSColor(srgbRed: 0.05, green: 0.50, blue: 0.42, alpha: 1)
         case "Cl": // Calls
             bgColour = NSColor(srgbRed: 0.04, green: 0.21, blue: 0.44, alpha: 1)
         case "Ca": // Campaigns

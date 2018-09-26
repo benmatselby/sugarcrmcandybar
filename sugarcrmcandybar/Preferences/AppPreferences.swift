@@ -38,9 +38,9 @@ class AppPreferences {
     /// - Returns: String
     func getNsAppearanceName() -> String {
         if (self.appearanceName == "Dark") {
-            return NSAppearanceNameVibrantDark
+            return convertFromNSAppearanceName(NSAppearance.Name.vibrantDark)
         } else {
-            return NSAppearanceNameVibrantLight
+            return convertFromNSAppearanceName(NSAppearance.Name.vibrantLight)
         }
     }
 
@@ -53,4 +53,9 @@ class AppPreferences {
         self.appearanceName = name
         defaults.set(self.appearanceName, forKey: "appearanceName")
     }
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertFromNSAppearanceName(_ input: NSAppearance.Name) -> String {
+	return input.rawValue
 }
