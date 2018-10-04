@@ -32,13 +32,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     func showResultsWindow() {
-        let preferences = AppPreferences()
         self.resultsWindowController = NSStoryboard(name: "Main", bundle: nil).instantiateController(withIdentifier: "results window") as? NSWindowController
         NSApplication.shared.activate(ignoringOtherApps: true)
         self.resultsWindowController.showWindow(nil)
         self.resultsWindowController.window?.titleVisibility = .hidden
         self.resultsWindowController.window?.titlebarAppearsTransparent = true
-        self.resultsWindowController.window?.appearance = NSAppearance(named: convertToNSAppearanceName(preferences.getNsAppearanceName()))
         self.resultsWindowController.window?.isMovableByWindowBackground = true
     }
 }

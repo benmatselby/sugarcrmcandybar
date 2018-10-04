@@ -868,31 +868,8 @@ Enter your username and password you use to log into the SugarCRM application</s
                                 <rect key="frame" x="382" y="23" width="16" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             </progressIndicator>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nTT-sl-J55">
-                                <rect key="frame" x="75" y="52" width="81" height="17"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Appearance:" id="MP0-g1-1db">
-                                    <font key="font" metaFont="system"/>
-                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
-                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fG5-ZH-MVG">
-                                <rect key="frame" x="160" y="45" width="76" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <popUpButtonCell key="cell" type="push" title="Light" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="b0w-Vc-gzZ" id="lRO-k0-QQ2">
-                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="menu"/>
-                                    <menu key="menu" id="DU2-X3-XQy">
-                                        <items>
-                                            <menuItem title="Light" state="on" id="b0w-Vc-gzZ" userLabel="Light"/>
-                                            <menuItem title="Dark" id="VUb-Lk-Zb6" userLabel="Dark"/>
-                                        </items>
-                                    </menu>
-                                </popUpButtonCell>
-                            </popUpButton>
                             <textField hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ii3-8X-WzR">
-                                <rect key="frame" x="18" y="13" width="382" height="29"/>
+                                <rect key="frame" x="94" y="42" width="382" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="The settings are incorrect, please update them and try again." id="vcQ-hI-GHx">
                                     <font key="font" metaFont="system"/>
@@ -904,7 +881,6 @@ Enter your username and password you use to log into the SugarCRM application</s
                     </view>
                     <connections>
                         <outlet property="appIcon" destination="5wl-ll-CsQ" id="VOH-Qq-f8b"/>
-                        <outlet property="appearance" destination="fG5-ZH-MVG" id="Aqc-Wu-jwu"/>
                         <outlet property="errorLabel" destination="Ii3-8X-WzR" id="x2V-yq-JBN"/>
                         <outlet property="indicator" destination="Xdz-Xq-Vj7" id="IZy-If-fnT"/>
                         <outlet property="passwordField" destination="2gL-SW-nL6" id="0wX-7k-i34"/>
@@ -1122,6 +1098,7 @@ Gw
                                             </connections>
                                         </tableView>
                                     </subviews>
+                                    <nil key="backgroundColor"/>
                                 </clipView>
                                 <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="oUW-Qn-jLe">
                                     <rect key="frame" x="0.0" y="225" width="550" height="16"/>

@@ -21,13 +21,11 @@ class PreferencesViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let appPreferences = AppPreferences()
         let instance = SugarCrmInstance()
         self.urlField.stringValue = instance.getUrl()
         self.usernameField.stringValue = instance.getUsername()
         self.passwordField.stringValue = instance.getPassword()
-        self.appearance.selectItem(withTitle: appPreferences.getAppearanceName())
-
+        
         let icon = NSImage(named: "AppIcon");
         appIcon.image = icon
     }
@@ -49,9 +47,6 @@ class PreferencesViewController: NSViewController {
         errorLabel.isHidden = true
         indicator.isHidden = false
         indicator.startAnimation(nil)
-
-        let appPreferences = AppPreferences()
-        appPreferences.setAppearanceName(name: self.appearance.titleOfSelectedItem!)
 
         let instance = SugarCrmInstance()
         instance.setUrl(url: urlField.stringValue)
