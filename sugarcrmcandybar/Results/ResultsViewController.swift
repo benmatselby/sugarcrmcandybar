@@ -23,7 +23,6 @@ class ResultsViewController: NSViewController {
     // MARK: - View
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.tableView.appearance = NSAppearance(named: NSAppearance.Name.aqua)
         self.tableView.isHidden = true
     }
 
