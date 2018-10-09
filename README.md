@@ -33,3 +33,25 @@ Search your [SugarCRM](https://www.sugarcrm.com) application from your Mac menu 
 ### Mac OS X
 
 * Version 10.12 or above
+
+## Development
+
+If you are developing this application, you can mock away the SugarCRM application if need be. You need to supply the mock with a REST version in order for it to work. For example:
+
+```
+$ go run mock/server/main.go v10
+```
+
+Would run the mock for version 10 of the API (Pre verion 8.0 of SugarCRM). If you are running version 8 of SugarCRM, the support `v11`.
+
+When the mock is being hit, you get some feedback:
+
+```
+$ go run mock/server/main.go v10
+Hit the oauth handler /rest/v10/oauth2/token
+Hit the me handler /rest/v10/me
+Hit the oauth handler /rest/v10/oauth2/token
+Hit the search handler /rest/v10/globalsearch?q=Testing
+```
+
+You need to set the preferences of the application to have a URL of `http://localhost:8080`
