@@ -1137,17 +1137,17 @@ Gw
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kgh-0V-QEa">
-                                <rect key="frame" x="129" y="114" width="333" height="51"/>
+                                <rect key="frame" x="131" y="114" width="329" height="51"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="329" id="7yj-gv-Qkq"/>
                                 </constraints>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" id="Nqk-ET-CYB">
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" drawsBackground="YES" id="Nqk-ET-CYB">
                                     <font key="font" metaFont="system"/>
                                     <string key="title">To search SugarCRM:
 • Enter your search above and press enter
 • Select a module in the search box to limit the search</string>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 </textFieldCell>
                             </textField>
                         </subviews>
