@@ -674,7 +674,7 @@
 				INFOPLIST_FILE = sugarcrmcandybar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = benmatselby.sugarcrmcandybar;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "SugarCRM Candy Bar";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.2;
 			};
