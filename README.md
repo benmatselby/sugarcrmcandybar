@@ -4,6 +4,10 @@
 
 Search your [SugarCRM](https://www.sugarcrm.com) application from your Mac menu bar
 
+## Installation
+
+Go to the [Releases page](https://github.com/benmatselby/sugarcrmcandybar/releases) and download `SugarCRMCandyBar.app.zip`. Unzip the file and drag `SugarCRM Candy Bar` to your applications folder.
+
 ## Features
 
 * Ability to set your credentials to authenticate onto your SugarCRM application
