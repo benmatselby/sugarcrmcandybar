@@ -45,7 +45,6 @@
 		B5824D731DE1F3FD00E92562 /* RecordNoteTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5824D721DE1F3FD00E92562 /* RecordNoteTest.swift */; };
 		B5824D751DE1F43F00E92562 /* RecordRevenueLineItemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5824D741DE1F43F00E92562 /* RecordRevenueLineItemTest.swift */; };
 		B5824D771DE1F44900E92562 /* RecordTaskTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5824D761DE1F44900E92562 /* RecordTaskTest.swift */; };
-		B59A56251DD79CBB008DC34E /* AppPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59A56241DD79CBB008DC34E /* AppPreferences.swift */; };
 		B59A56271DD8A7A0008DC34E /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59A56261DD8A7A0008DC34E /* Keychain.swift */; };
 		B59A56291DD8F40E008DC34E /* RecordDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59A56281DD8F40E008DC34E /* RecordDocument.swift */; };
 		B59A562B1DD8F4E5008DC34E /* RecordDocumentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59A562A1DD8F4E5008DC34E /* RecordDocumentTest.swift */; };
@@ -119,7 +118,6 @@
 		B5824D721DE1F3FD00E92562 /* RecordNoteTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordNoteTest.swift; sourceTree = "<group>"; };
 		B5824D741DE1F43F00E92562 /* RecordRevenueLineItemTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordRevenueLineItemTest.swift; sourceTree = "<group>"; };
 		B5824D761DE1F44900E92562 /* RecordTaskTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordTaskTest.swift; sourceTree = "<group>"; };
-		B59A56241DD79CBB008DC34E /* AppPreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppPreferences.swift; sourceTree = "<group>"; };
 		B59A56261DD8A7A0008DC34E /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Utils/Keychain.swift; sourceTree = "<group>"; };
 		B59A56281DD8F40E008DC34E /* RecordDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordDocument.swift; sourceTree = "<group>"; };
 		B59A562A1DD8F4E5008DC34E /* RecordDocumentTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordDocumentTest.swift; sourceTree = "<group>"; };
@@ -171,7 +169,6 @@
 			isa = PBXGroup;
 			children = (
 				B5031D9B1DCBD91B00F18D78 /* PreferencesViewController.swift */,
-				B59A56241DD79CBB008DC34E /* AppPreferences.swift */,
 			);
 			path = Preferences;
 			sourceTree = "<group>";
@@ -397,16 +394,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Ben Selby";
 				TargetAttributes = {
 					B520D8A41DCBD7D7008465A3 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 38J7HFHL7P;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
 					B520D8B51DCBD7D7008465A3 = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 						TestTargetID = B520D8A41DCBD7D7008465A3;
 					};
@@ -460,7 +459,6 @@
 			files = (
 				B520D8A91DCBD7D7008465A3 /* AppDelegate.swift in Sources */,
 				B5031DAE1DCBD91B00F18D78 /* RecordMapper.swift in Sources */,
-				B59A56251DD79CBB008DC34E /* AppPreferences.swift in Sources */,
 				B59B3DBE1DCF7AEF00143D01 /* ResponseGlobalSearch.swift in Sources */,
 				B5824D661DE1F14100E92562 /* RecordNote.swift in Sources */,
 				B5031DAD1DCBD91B00F18D78 /* RecordLead.swift in Sources */,
@@ -549,15 +547,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -587,6 +593,7 @@
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -599,15 +606,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -629,6 +644,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -643,7 +659,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = benmatselby.sugarcrmcandybar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -657,8 +674,9 @@
 				INFOPLIST_FILE = sugarcrmcandybar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = benmatselby.sugarcrmcandybar;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				PRODUCT_NAME = "SugarCRM Candy Bar";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -672,7 +690,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = benmatselby.sugarcrmcandybarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sugarcrmcandybar.app/Contents/MacOS/sugarcrmcandybar";
 			};
 			name = Debug;
@@ -687,7 +706,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = benmatselby.sugarcrmcandybarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sugarcrmcandybar.app/Contents/MacOS/sugarcrmcandybar";
 			};
 			name = Release;

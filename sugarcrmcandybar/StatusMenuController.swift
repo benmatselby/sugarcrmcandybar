@@ -10,7 +10,7 @@ import Cocoa
 
 class StatusMenuController: NSObject {
 
-    let statusItem = NSStatusBar.system().statusItem(withLength: NSVariableStatusItemLength)
+    let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
 
     @IBOutlet weak var appMenu: NSMenu!
 
@@ -24,22 +24,22 @@ class StatusMenuController: NSObject {
 
     // MARK: - Actions
     @IBAction func preferencesClicked(_ sender: NSMenuItem) {
-        let appDelegate = NSApplication.shared().delegate as! AppDelegate
+        let appDelegate = NSApplication.shared.delegate as! AppDelegate
         appDelegate.showPreferencesWindow()
 
     }
 
     @IBAction func gotoClicked(_ sender: NSMenuItem) {
         let sugarInstance: SugarCrmInstance = SugarCrmInstance()
-        NSWorkspace.shared().open(URL(string: sugarInstance.getUrl())!)
+        NSWorkspace.shared.open(URL(string: sugarInstance.getUrl())!)
     }
 
     @IBAction func searchClicked(_ sender: NSMenuItem) {
-        let appDelegate = NSApplication.shared().delegate as! AppDelegate
+        let appDelegate = NSApplication.shared.delegate as! AppDelegate
         appDelegate.showResultsWindow()
     }
 
     @IBAction func quitClicked(_ sender: NSMenuItem) {
-        NSApplication.shared().terminate(self)
+        NSApplication.shared.terminate(self)
     }
 }
